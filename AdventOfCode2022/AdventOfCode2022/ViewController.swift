@@ -12,7 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Day1.findTheMostCalories()
+        //Day1.findTheMostCalories()
+        //Day2Part1.calculatePoints()
+        Day2Part2.calculatePoints()
     }
 }
 
