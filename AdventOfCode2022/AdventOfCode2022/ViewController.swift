@@ -14,7 +14,9 @@ class ViewController: UIViewController {
         
         //Day1.findTheMostCalories()
         //Day2Part1.calculatePoints()
-        Day2Part2.calculatePoints()
+        //Day2Part2.calculatePoints()
+        //Day3.findSumPriorities()
+        Day3.findSumBadgePriorities()
     }
 }
 
