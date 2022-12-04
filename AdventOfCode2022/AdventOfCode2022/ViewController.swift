@@ -16,7 +16,9 @@ class ViewController: UIViewController {
         //Day2Part1.calculatePoints()
         //Day2Part2.calculatePoints()
         //Day3.findSumPriorities()
-        Day3.findSumBadgePriorities()
+        //Day3.findSumBadgePriorities()
+        //Day4.findpairsfullycontains() // Don't count overlap ranges
+        Day4.findpairsfullycontains(isCountOverlap: true)
     }
 }
 
