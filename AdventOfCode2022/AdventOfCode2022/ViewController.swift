@@ -18,7 +18,9 @@ class ViewController: UIViewController {
         //Day3.findSumPriorities()
         //Day3.findSumBadgePriorities()
         //Day4.findpairsfullycontains() // Don't count overlap ranges
-        Day4.findpairsfullycontains(isCountOverlap: true)
+        //Day4.findpairsfullycontains(isCountOverlap: true)
+        //Day5.findTopCrates()
+        Day5.findTopCrates(isMultiplePop: true)
     }
 }
 
