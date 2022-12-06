@@ -20,6 +20,7 @@
 		4B4DB12E293DB706002084FB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DB12D293DB706002084FB /* String+Extensions.swift */; };
 		4B4DB130293DBA07002084FB /* SkedStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DB12F293DBA07002084FB /* SkedStack.swift */; };
 		4B4DB132293DBC02002084FB /* Day5input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B4DB131293DBC02002084FB /* Day5input.txt */; };
+		4B4DB135293F0409002084FB /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DB134293F0409002084FB /* Day6.swift */; };
 		4BA18F492939C6C50071B52F /* Day2Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA18F482939C6C50071B52F /* Day2Part1.swift */; };
 		4BA18F4B2939D53D0071B52F /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA18F4A2939D53D0071B52F /* Shape.swift */; };
 		4BE8C8912939DB510047AC5E /* Day2Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C8902939DB510047AC5E /* Day2Part2.swift */; };
@@ -41,6 +42,7 @@
 		4B4DB12D293DB706002084FB /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		4B4DB12F293DBA07002084FB /* SkedStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkedStack.swift; sourceTree = "<group>"; };
 		4B4DB131293DBC02002084FB /* Day5input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day5input.txt; sourceTree = "<group>"; };
+		4B4DB134293F0409002084FB /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
 		4BA18F482939C6C50071B52F /* Day2Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Part1.swift; sourceTree = "<group>"; };
 		4BA18F4A2939D53D0071B52F /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		4BE8C8902939DB510047AC5E /* Day2Part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Part2.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		4B0A0A022938F18D00E36684 /* AdventOfCode2022 */ = {
 			isa = PBXGroup;
 			children = (
+				4B4DB133293F03FF002084FB /* Day6 */,
 				4B4DB12A293DB1D6002084FB /* Day5 */,
 				4B4DB127293C6968002084FB /* Day4 */,
 				4B4DB122293B1CA9002084FB /* Day3 */,
@@ -125,6 +128,14 @@
 				4B4DB12F293DBA07002084FB /* SkedStack.swift */,
 			);
 			path = Day5;
+			sourceTree = "<group>";
+		};
+		4B4DB133293F03FF002084FB /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DB134293F0409002084FB /* Day6.swift */,
+			);
+			path = Day6;
 			sourceTree = "<group>";
 		};
 		4BA18F472939C6B90071B52F /* Day2 */ = {
@@ -211,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4DB12E293DB706002084FB /* String+Extensions.swift in Sources */,
+				4B4DB135293F0409002084FB /* Day6.swift in Sources */,
 				4B4DB124293B1CBE002084FB /* Day3.swift in Sources */,
 				4BA18F4B2939D53D0071B52F /* Shape.swift in Sources */,
 				4B0A0A082938F18D00E36684 /* ViewController.swift in Sources */,

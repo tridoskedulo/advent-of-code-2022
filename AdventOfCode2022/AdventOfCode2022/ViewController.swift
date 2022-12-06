@@ -20,7 +20,8 @@ class ViewController: UIViewController {
         //Day4.findpairsfullycontains() // Don't count overlap ranges
         //Day4.findpairsfullycontains(isCountOverlap: true)
         //Day5.findTopCrates()
-        Day5.findTopCrates(isMultiplePop: true)
+        //Day5.findTopCrates(isMultiplePop: true)
+        Day6.getNumberOfCharacters()
     }
 }
 
