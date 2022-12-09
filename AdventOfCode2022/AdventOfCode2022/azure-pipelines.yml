@@ -22,9 +22,6 @@ stages:
       displayName: 'gem install slather'
       inputs:
         script: gem install slather
-    - script: |
-    fastlane test
-  displayName: "Test"
 
 - script: gem install slather
   displayName: 'Install Slather'
