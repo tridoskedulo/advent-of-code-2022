@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B04CF36294355CB00DF1B16 /* azure-pipelines.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B04CF35294355CB00DF1B16 /* azure-pipelines.yml */; };
-		4B04CF3829435CEE00DF1B16 /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B04CF3729435CEE00DF1B16 /* .slather.yml */; };
+		4B04CF3B29437DB800DF1B16 /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B04CF3929437DB800DF1B16 /* .slather.yml */; };
+		4B04CF3C29437DB800DF1B16 /* azure-pipelines.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B04CF3A29437DB800DF1B16 /* azure-pipelines.yml */; };
 		4B0A0A042938F18D00E36684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A032938F18D00E36684 /* AppDelegate.swift */; };
 		4B0A0A082938F18D00E36684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A072938F18D00E36684 /* ViewController.swift */; };
 		4B0A0A0B2938F18D00E36684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A0A092938F18D00E36684 /* Main.storyboard */; };
@@ -32,8 +32,8 @@
 
 /* Begin PBXFileReference section */
 		48644E4A687D2C316153230B /* Pods_AdventOfCode2022.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdventOfCode2022.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B04CF35294355CB00DF1B16 /* azure-pipelines.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = "azure-pipelines.yml"; path = "../../azure-pipelines.yml"; sourceTree = "<group>"; };
-		4B04CF3729435CEE00DF1B16 /* .slather.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = .slather.yml; path = ../../.slather.yml; sourceTree = "<group>"; };
+		4B04CF3929437DB800DF1B16 /* .slather.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .slather.yml; sourceTree = SOURCE_ROOT; };
+		4B04CF3A29437DB800DF1B16 /* azure-pipelines.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "azure-pipelines.yml"; sourceTree = SOURCE_ROOT; };
 		4B0A0A002938F18D00E36684 /* AdventOfCode2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0A0A032938F18D00E36684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B0A0A072938F18D00E36684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,9 +100,9 @@
 				4B0A0A1A2938F1A000E36684 /* Day1 */,
 				4B0A0A032938F18D00E36684 /* AppDelegate.swift */,
 				4B0A0A072938F18D00E36684 /* ViewController.swift */,
+				4B04CF3929437DB800DF1B16 /* .slather.yml */,
+				4B04CF3A29437DB800DF1B16 /* azure-pipelines.yml */,
 				4B0A0A092938F18D00E36684 /* Main.storyboard */,
-				4B04CF35294355CB00DF1B16 /* azure-pipelines.yml */,
-				4B04CF3729435CEE00DF1B16 /* .slather.yml */,
 				4B0A0A0F2938F19100E36684 /* Assets.xcassets */,
 				4B0A0A112938F19100E36684 /* LaunchScreen.storyboard */,
 				4B0A0A142938F19100E36684 /* Info.plist */,
@@ -186,7 +186,6 @@
 				A579A90AAC5DEA7688D31693 /* Pods-AdventOfCode2022.debug.xcconfig */,
 				800C503A0CD67E3EBE7E895B /* Pods-AdventOfCode2022.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -252,10 +251,10 @@
 			files = (
 				4B0A0A132938F19100E36684 /* LaunchScreen.storyboard in Resources */,
 				4B4DB132293DBC02002084FB /* Day5input.txt in Resources */,
-				4B04CF36294355CB00DF1B16 /* azure-pipelines.yml in Resources */,
+				4B04CF3C29437DB800DF1B16 /* azure-pipelines.yml in Resources */,
 				4B0A0A102938F19100E36684 /* Assets.xcassets in Resources */,
+				4B04CF3B29437DB800DF1B16 /* .slather.yml in Resources */,
 				4B0A0A1E2938F20400E36684 /* Day1Input.txt in Resources */,
-				4B04CF3829435CEE00DF1B16 /* .slather.yml in Resources */,
 				4B0A0A0B2938F18D00E36684 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
