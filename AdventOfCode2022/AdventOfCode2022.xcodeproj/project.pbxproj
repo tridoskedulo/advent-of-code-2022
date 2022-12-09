@@ -27,9 +27,11 @@
 		4BA18F492939C6C50071B52F /* Day2Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA18F482939C6C50071B52F /* Day2Part1.swift */; };
 		4BA18F4B2939D53D0071B52F /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA18F4A2939D53D0071B52F /* Shape.swift */; };
 		4BE8C8912939DB510047AC5E /* Day2Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C8902939DB510047AC5E /* Day2Part2.swift */; };
+		EE378C8F94C07C3F35E0B1A6 /* Pods_AdventOfCode2022.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48644E4A687D2C316153230B /* Pods_AdventOfCode2022.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48644E4A687D2C316153230B /* Pods_AdventOfCode2022.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdventOfCode2022.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B04CF35294355CB00DF1B16 /* azure-pipelines.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = "azure-pipelines.yml"; path = "../../azure-pipelines.yml"; sourceTree = "<group>"; };
 		4B04CF3729435CEE00DF1B16 /* .slather.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = .slather.yml; path = ../../.slather.yml; sourceTree = "<group>"; };
 		4B0A0A002938F18D00E36684 /* AdventOfCode2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +54,8 @@
 		4BA18F482939C6C50071B52F /* Day2Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Part1.swift; sourceTree = "<group>"; };
 		4BA18F4A2939D53D0071B52F /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		4BE8C8902939DB510047AC5E /* Day2Part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Part2.swift; sourceTree = "<group>"; };
+		800C503A0CD67E3EBE7E895B /* Pods-AdventOfCode2022.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventOfCode2022.release.xcconfig"; path = "Target Support Files/Pods-AdventOfCode2022/Pods-AdventOfCode2022.release.xcconfig"; sourceTree = "<group>"; };
+		A579A90AAC5DEA7688D31693 /* Pods-AdventOfCode2022.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventOfCode2022.debug.xcconfig"; path = "Target Support Files/Pods-AdventOfCode2022/Pods-AdventOfCode2022.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE378C8F94C07C3F35E0B1A6 /* Pods_AdventOfCode2022.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +75,8 @@
 			children = (
 				4B0A0A022938F18D00E36684 /* AdventOfCode2022 */,
 				4B0A0A012938F18D00E36684 /* Products */,
+				F1FB1E70276FE0DA368D9898 /* Pods */,
+				C041FF17DD282FAFF5CC3453 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +172,24 @@
 			path = Day2;
 			sourceTree = "<group>";
 		};
+		C041FF17DD282FAFF5CC3453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48644E4A687D2C316153230B /* Pods_AdventOfCode2022.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1FB1E70276FE0DA368D9898 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A579A90AAC5DEA7688D31693 /* Pods-AdventOfCode2022.debug.xcconfig */,
+				800C503A0CD67E3EBE7E895B /* Pods-AdventOfCode2022.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B0A0A172938F19100E36684 /* Build configuration list for PBXNativeTarget "AdventOfCode2022" */;
 			buildPhases = (
+				F40027FB23D26E36573995A3 /* [CP] Check Pods Manifest.lock */,
 				4B0A09FC2938F18D00E36684 /* Sources */,
 				4B0A09FD2938F18D00E36684 /* Frameworks */,
 				4B0A09FE2938F18D00E36684 /* Resources */,
+				B368EF9F95485838E4258647 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +261,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B368EF9F95485838E4258647 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdventOfCode2022/Pods-AdventOfCode2022-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdventOfCode2022/Pods-AdventOfCode2022-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdventOfCode2022/Pods-AdventOfCode2022-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40027FB23D26E36573995A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdventOfCode2022-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B0A09FC2938F18D00E36684 /* Sources */ = {
@@ -394,6 +463,7 @@
 		};
 		4B0A0A182938F19100E36684 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A579A90AAC5DEA7688D31693 /* Pods-AdventOfCode2022.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -423,6 +493,7 @@
 		};
 		4B0A0A192938F19100E36684 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800C503A0CD67E3EBE7E895B /* Pods-AdventOfCode2022.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
