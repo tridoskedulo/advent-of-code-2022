@@ -7,6 +7,8 @@ pool:
   vmImage: 'macos-12'
   demands: xcode
 steps:
+  - task: CocoaPods@0
+    displayName: 'pod install'
   - task: Xcode@5
     displayName: "XCode Build"
     inputs:
