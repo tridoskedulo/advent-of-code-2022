@@ -1,0 +1,9 @@
+coverage_service: cobertura_xml
+scheme: AdventOfCode2022
+output_directory: ./slather-report
+workspace: AdventOfCode2022.xcodeproj/project.xcworkspace
+xcodeproj: AdventOfCode2022.xcodeproj
+ignore:
+    - ../**/*/Xcode*
+    - ../core/*
+
