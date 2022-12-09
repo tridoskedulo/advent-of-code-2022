@@ -16,7 +16,7 @@ steps:
       scheme: 'AdventOfCode2022'
       sdk: 'iphoneos'
       configuration: 'Debug'
-      xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
+      xcWorkspacePath: 'AdventOfCode2022.xcworkspace'
       xcodeVersion: 'default'
       publishJUnitResults: true
       
