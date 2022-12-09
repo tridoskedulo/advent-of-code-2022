@@ -8,5 +8,6 @@ target 'AdventOfCode2022' do
   # Pods for AdventOfCode2022
 
 pod 'Alamofire'
+pod 'SDWebImage'
 
 end
