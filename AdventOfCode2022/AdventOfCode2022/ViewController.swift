@@ -21,7 +21,8 @@ class ViewController: UIViewController {
         //Day4.findpairsfullycontains(isCountOverlap: true)
         //Day5.findTopCrates()
         //Day5.findTopCrates(isMultiplePop: true)
-        Day6.getNumberOfCharacters()
+        //Day6.getNumberOfCharacters()
+        Day7.getSumTotalSizes()
     }
 }
 

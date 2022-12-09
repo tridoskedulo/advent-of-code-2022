@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B04CF302943497100DF1B16 /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B04CF2F2943497100DF1B16 /* .slather.yml */; };
+		4B04CF3229434BC700DF1B16 /* azure-pipelines.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B04CF3129434BC600DF1B16 /* azure-pipelines.yml */; };
 		4B0A0A042938F18D00E36684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A032938F18D00E36684 /* AppDelegate.swift */; };
 		4B0A0A082938F18D00E36684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A072938F18D00E36684 /* ViewController.swift */; };
 		4B0A0A0B2938F18D00E36684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A0A092938F18D00E36684 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		4B0A0A132938F19100E36684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A0A112938F19100E36684 /* LaunchScreen.storyboard */; };
 		4B0A0A1E2938F20400E36684 /* Day1Input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A0A1D2938F20400E36684 /* Day1Input.txt */; };
 		4B0A0A202938F30A00E36684 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A1F2938F30A00E36684 /* Day1.swift */; };
+		4B1ADC962940556E007C7890 /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1ADC952940556E007C7890 /* Day7.swift */; };
 		4B4DB124293B1CBE002084FB /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DB123293B1CBE002084FB /* Day3.swift */; };
 		4B4DB129293C6974002084FB /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DB128293C6974002084FB /* Day4.swift */; };
 		4B4DB12C293DB1E0002084FB /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DB12B293DB1E0002084FB /* Day5.swift */; };
@@ -27,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B04CF2F2943497100DF1B16 /* .slather.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .slather.yml; sourceTree = "<group>"; };
+		4B04CF3129434BC600DF1B16 /* azure-pipelines.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "azure-pipelines.yml"; sourceTree = "<group>"; };
 		4B0A0A002938F18D00E36684 /* AdventOfCode2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0A0A032938F18D00E36684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B0A0A072938F18D00E36684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		4B0A0A142938F19100E36684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B0A0A1D2938F20400E36684 /* Day1Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day1Input.txt; sourceTree = "<group>"; };
 		4B0A0A1F2938F30A00E36684 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		4B1ADC952940556E007C7890 /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
 		4B4DB123293B1CBE002084FB /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		4B4DB128293C6974002084FB /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
 		4B4DB12B293DB1E0002084FB /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
@@ -78,6 +84,7 @@
 		4B0A0A022938F18D00E36684 /* AdventOfCode2022 */ = {
 			isa = PBXGroup;
 			children = (
+				4B1ADC9429405562007C7890 /* Day7 */,
 				4B4DB133293F03FF002084FB /* Day6 */,
 				4B4DB12A293DB1D6002084FB /* Day5 */,
 				4B4DB127293C6968002084FB /* Day4 */,
@@ -87,6 +94,8 @@
 				4B0A0A032938F18D00E36684 /* AppDelegate.swift */,
 				4B0A0A072938F18D00E36684 /* ViewController.swift */,
 				4B0A0A092938F18D00E36684 /* Main.storyboard */,
+				4B04CF2F2943497100DF1B16 /* .slather.yml */,
+				4B04CF3129434BC600DF1B16 /* azure-pipelines.yml */,
 				4B0A0A0F2938F19100E36684 /* Assets.xcassets */,
 				4B0A0A112938F19100E36684 /* LaunchScreen.storyboard */,
 				4B0A0A142938F19100E36684 /* Info.plist */,
@@ -101,6 +110,14 @@
 				4B0A0A1F2938F30A00E36684 /* Day1.swift */,
 			);
 			path = Day1;
+			sourceTree = "<group>";
+		};
+		4B1ADC9429405562007C7890 /* Day7 */ = {
+			isa = PBXGroup;
+			children = (
+				4B1ADC952940556E007C7890 /* Day7.swift */,
+			);
+			path = Day7;
 			sourceTree = "<group>";
 		};
 		4B4DB122293B1CA9002084FB /* Day3 */ = {
@@ -184,7 +201,7 @@
 				};
 			};
 			buildConfigurationList = 4B0A09FB2938F18D00E36684 /* Build configuration list for PBXProject "AdventOfCode2022" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -209,6 +226,8 @@
 				4B0A0A132938F19100E36684 /* LaunchScreen.storyboard in Resources */,
 				4B4DB132293DBC02002084FB /* Day5input.txt in Resources */,
 				4B0A0A102938F19100E36684 /* Assets.xcassets in Resources */,
+				4B04CF3229434BC700DF1B16 /* azure-pipelines.yml in Resources */,
+				4B04CF302943497100DF1B16 /* .slather.yml in Resources */,
 				4B0A0A1E2938F20400E36684 /* Day1Input.txt in Resources */,
 				4B0A0A0B2938F18D00E36684 /* Main.storyboard in Resources */,
 			);
@@ -222,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4DB12E293DB706002084FB /* String+Extensions.swift in Sources */,
+				4B1ADC962940556E007C7890 /* Day7.swift in Sources */,
 				4B4DB135293F0409002084FB /* Day6.swift in Sources */,
 				4B4DB124293B1CBE002084FB /* Day3.swift in Sources */,
 				4BA18F4B2939D53D0071B52F /* Shape.swift in Sources */,
