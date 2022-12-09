@@ -1,0 +1,36 @@
+trigger:
+  branches:
+    include:
+    - master
+stages:
+- stage: __default
+  jobs:
+  - job: Job
+    pool:
+      vmImage: 'macos-12'
+    steps:
+    - task: Xcode@5
+      inputs:
+        actions: 'build'
+        scheme: ''
+        sdk: 'iphoneos'
+        configuration: 'Debug'
+        xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
+        xcodeVersion: 'default'
+        publishJUnitResults: true
+    - task: CmdLine@2
+      displayName: 'gem install slather'
+      inputs:
+        script: gem install slather
+
+- script: gem install slather
+  displayName: 'Install Slather'
+
+- script: slather
+  displayName: 'Run slather'
+
+- task: PublishCodeCoverageResults@1
+  inputs:
+    codeCoverageTool: Cobertura
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/cobertura.xml'
+    reportDirectory: '$(System.DefaultWorkingDirectory)/**/slather-report'
