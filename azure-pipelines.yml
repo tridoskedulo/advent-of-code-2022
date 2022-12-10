@@ -24,7 +24,7 @@ steps:
     inputs:
       actions: 'build'
       scheme: '$(scheme)'
-      sdk: '$(sdk)'
+      destinationPlatform: 'platform=iOS Simulator,name=iPhone 14 Pro Max'
       configuration: 'Debug'
       xcWorkspacePath: 'AdventOfCode2022.xcworkspace'
       xcodeVersion: 'default'
