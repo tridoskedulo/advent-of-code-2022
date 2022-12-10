@@ -44,7 +44,7 @@ steps:
   - script: gem install slather
     displayName: 'Install Slather'
 
-  - script: slather coverage -x --scheme AdventOfCode2022 --workspace ./AdventOfCode2022.xcworkspace/ --output-directory $(coveragepath) $(projectPath)
+  - script: slather coverage -x --scheme AdventOfCode2022 --workspace ./AdventOfCode2022.xcworkspace/ --output-directory $(coveragepath)
     displayName: 'Run slather'
 
   - task: PublishCodeCoverageResults@1
