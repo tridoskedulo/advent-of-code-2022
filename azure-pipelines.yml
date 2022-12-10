@@ -6,6 +6,16 @@ trigger:
 pool:
   vmImage: 'macos-12'
   demands: xcode
+  
+variables:
+  sdk: 'iphoneos'
+  projectPath: 'AdventOfCode2022.xcodeproj'
+  workspacePath: 'AdventOfCode2022.xcworkspace'
+  scheme: 'AdventOfCode2022'
+  configuration: 'Debug'
+  coveragePath: '$(agent.buildDirectory)/coverage/'
+  artifactName: 'ArtifactName'
+  
 steps:
   - task: CocoaPods@0
     displayName: 'pod install'
@@ -14,7 +24,7 @@ steps:
     inputs:
       actions: 'build'
       scheme: 'AdventOfCode2022'
-      sdk: 'iphoneos'
+      sdk: '$(sdk)'
       configuration: 'Debug'
       xcWorkspacePath: 'AdventOfCode2022.xcworkspace'
       xcodeVersion: 'default'
@@ -23,7 +33,7 @@ steps:
   - script: gem install slather
     displayName: 'Install Slather'
 
-  - script: fastlane run slather
+  - script: slather coverage -x --scheme AdventOfCode2022 --workspace AdventOfCode2022.xcworkspace --output-dictionary $(coveragepath) $(projectPath)
     displayName: 'Run slather'
 
   - task: PublishCodeCoverageResults@1
