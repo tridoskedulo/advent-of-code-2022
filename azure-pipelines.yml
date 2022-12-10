@@ -34,7 +34,7 @@ steps:
     displayName: 'Run XCTest/XCUITest'
     inputs:
      actions: 'test'
-     destination: 'platform=iOS Simulator,name=iPhone 14 Pro Max'
+     destinationPlatform: 'platform=iOS Simulator,name=iPhone 14 Pro Max'
      scheme: '$(scheme)'
      configuration: '$(configuration)'
      xcWorkspacePath: '$(workspacePath)'
