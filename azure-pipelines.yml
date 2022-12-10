@@ -30,14 +30,13 @@ steps:
       xcodeVersion: 'default'
       publishJUnitResults: true
       
- - task: Xcode@5
-   displayName: 'Run XCTest/XCUITest'
-   inputs:
+  - task: Xcode@5
+    displayName: 'Run XCTest/XCUITest'
+    inputs:
      actions: 'test'
      sdk: '$(sdk)'
      scheme: '$(scheme)'
-     packageApp: false
-     configuration: '$(configuration)' # only testable for Debug with current config
+     configuration: '$(configuration)'
      xcWorkspacePath: '$(workspacePath)'
      xcodeVersion: 'default'
       
