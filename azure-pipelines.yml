@@ -23,7 +23,7 @@ steps:
   - script: gem install slather
     displayName: 'Install Slather'
 
-  - script: slather
+  - script: fastlane run slather
     displayName: 'Run slather'
 
   - task: PublishCodeCoverageResults@1
