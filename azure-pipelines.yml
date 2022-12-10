@@ -23,12 +23,23 @@ steps:
     displayName: "XCode Build"
     inputs:
       actions: 'build'
-      scheme: 'AdventOfCode2022'
+      scheme: '$(scheme)'
       sdk: '$(sdk)'
       configuration: 'Debug'
       xcWorkspacePath: 'AdventOfCode2022.xcworkspace'
       xcodeVersion: 'default'
       publishJUnitResults: true
+      
+ - task: Xcode@5
+   displayName: 'Run XCTest/XCUITest'
+   inputs:
+     actions: 'test'
+     sdk: '$(sdk)'
+     scheme: '$(scheme)'
+     packageApp: false
+     configuration: '$(configuration)' # only testable for Debug with current config
+     xcWorkspacePath: '$(workspacePath)'
+     xcodeVersion: 'default'
       
   - script: gem install slather
     displayName: 'Install Slather'
