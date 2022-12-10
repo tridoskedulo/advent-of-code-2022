@@ -31,14 +31,15 @@ steps:
       publishJUnitResults: true
       
   - task: Xcode@5
-    displayName: 'Run XCTest/XCUITest'
+    displayName: 'Running tests'
     inputs:
      actions: 'test'
-     destinationSimulators: 'iPhone 14 Pro Max'
+     sdk: 'iphonesimulator'
      scheme: '$(scheme)'
      configuration: '$(configuration)'
      xcWorkspacePath: '$(workspacePath)'
      xcodeVersion: 'default'
+     args: '-destination "platform=iOS Simulator,name=iPhone 14 Pro Max"'
       
   - script: gem install slather
     displayName: 'Install Slather'
