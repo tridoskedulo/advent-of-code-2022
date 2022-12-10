@@ -35,7 +35,7 @@ steps:
     inputs:
      actions: 'test'
      destinationPlatformOption: iOS
-     destinationSimulators: 'platform=iOS Simulator,name=iPhone 14 Pro Max'
+     destinationSimulators: 'platform=iOS Simulator'
      scheme: '$(scheme)'
      configuration: '$(configuration)'
      xcWorkspacePath: '$(workspacePath)'
