@@ -15,6 +15,7 @@ variables:
   configuration: 'Debug'
   coveragePath: '$(agent.buildDirectory)/coverage/'
   artifactName: 'ArtifactName'
+  binaryBasename: "AdventOfCode2022"
   
 steps:
   - task: CocoaPods@0
@@ -44,7 +45,7 @@ steps:
   - script: gem install slather
     displayName: 'Install Slather'
 
-  - script: slather coverage -x --scheme AdventOfCode2022 --workspace ./AdventOfCode2022.xcworkspace/ AdventOfCode2022.xcodeproj
+  - script: slather coverage -x --scheme AdventOfCode2022 --workspace ./AdventOfCode2022.xcworkspace/ ./AdventOfCode2022.xcodeproj --binary-basename $binaryBasename
     displayName: 'Run slather'
 
   - task: PublishCodeCoverageResults@1
