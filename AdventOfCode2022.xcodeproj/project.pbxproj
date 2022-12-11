@@ -24,6 +24,7 @@
 		4B4DB130293DBA07002084FB /* SkedStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DB12F293DBA07002084FB /* SkedStack.swift */; };
 		4B4DB132293DBC02002084FB /* Day5input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B4DB131293DBC02002084FB /* Day5input.txt */; };
 		4B4DB135293F0409002084FB /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DB134293F0409002084FB /* Day6.swift */; };
+		4B6E59B7294595E300399E9B /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4B6E59B6294595E300399E9B /* .slather.yml */; };
 		4BA18F492939C6C50071B52F /* Day2Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA18F482939C6C50071B52F /* Day2Part1.swift */; };
 		4BA18F4B2939D53D0071B52F /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA18F4A2939D53D0071B52F /* Shape.swift */; };
 		4BE8C8912939DB510047AC5E /* Day2Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C8902939DB510047AC5E /* Day2Part2.swift */; };
@@ -62,6 +63,7 @@
 		4B4DB12F293DBA07002084FB /* SkedStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkedStack.swift; sourceTree = "<group>"; };
 		4B4DB131293DBC02002084FB /* Day5input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day5input.txt; sourceTree = "<group>"; };
 		4B4DB134293F0409002084FB /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
+		4B6E59B6294595E300399E9B /* .slather.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .slather.yml; sourceTree = SOURCE_ROOT; };
 		4BA18F482939C6C50071B52F /* Day2Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Part1.swift; sourceTree = "<group>"; };
 		4BA18F4A2939D53D0071B52F /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		4BE8C8902939DB510047AC5E /* Day2Part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Part2.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				4B0A0A1A2938F1A000E36684 /* Day1 */,
 				4B0A0A032938F18D00E36684 /* AppDelegate.swift */,
 				4B0A0A072938F18D00E36684 /* ViewController.swift */,
+				4B6E59B6294595E300399E9B /* .slather.yml */,
 				4B04CF3A29437DB800DF1B16 /* azure-pipelines.yml */,
 				4B0A0A092938F18D00E36684 /* Main.storyboard */,
 				4B0A0A0F2938F19100E36684 /* Assets.xcassets */,
@@ -311,6 +314,7 @@
 				4B04CF3C29437DB800DF1B16 /* azure-pipelines.yml in Resources */,
 				4B0A0A102938F19100E36684 /* Assets.xcassets in Resources */,
 				4B0A0A1E2938F20400E36684 /* Day1Input.txt in Resources */,
+				4B6E59B7294595E300399E9B /* .slather.yml in Resources */,
 				4B0A0A0B2938F18D00E36684 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
