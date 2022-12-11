@@ -27,7 +27,7 @@ steps:
       scheme: '$(scheme)'
       destinationPlatform: 'platform=iOS Simulator,name=iPhone 14 Pro Max'
       configuration: 'Debug'
-      xcWorkspacePath: 'AdventOfCode2022.xcworkspace'
+      xcWorkspacePath: './AdventOfCode2022.xcworkspace'
       xcodeVersion: 'default'
       publishJUnitResults: true
       
